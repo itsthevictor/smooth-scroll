@@ -80,7 +80,7 @@ h3 {
   width: 100%;
   padding: 0 2rem;
   z-index: 90;
-  display: block;
+  display: grid;
   /* grid-template-columns: 1fr 1fr; */
 }
 

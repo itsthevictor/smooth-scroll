@@ -13,8 +13,8 @@ const ParallaxImages = () => {
       <ParallaxImage
         src="https://images.unsplash.com/photo-1446776709462-d6b525c57bd3?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         alt="An example of a space launch"
-        start={0}
-        end={-250}
+        start={-200}
+        end={-800}
         className="p-2 mx-auto w-2/3"
       />
       <ParallaxImage
@@ -27,8 +27,8 @@ const ParallaxImages = () => {
       <ParallaxImage
         src="https://images.unsplash.com/photo-1494022299300-899b96e49893?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         alt="Orbiting satellite"
-        start={100}
-        end={-500}
+        start={0}
+        end={-300}
         className="p-4 ml-24 w-5/12"
       />
     </div>

@@ -19,7 +19,7 @@ const ParallaxImage = ({ className, alt, src, start, end }) => {
   //   console.log(latest)
   // );
 
-  const y = useTransform(scrollYProgress, [0, 1], [start, end]);
+  const y = useTransform(scrollYProgress, [0, 0.6], [start, end]);
 
   const transform = useMotionTemplate`translateY(${y}px)`;
 
