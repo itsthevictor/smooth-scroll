@@ -81,7 +81,7 @@ h3 {
   padding: 0 2rem;
   z-index: 90;
   display: grid;
-  /* grid-template-columns: 1fr 1fr; */
+  grid-template-columns: 1fr 1fr;
 }
 
 .p-1 {
@@ -92,14 +92,14 @@ h3 {
 .p-2 {
   z-index: 90;
   width: 200px;
-  /* margin-top: 190px;
-  margin-left: -250px; */
+  margin-top: 190px;
+  margin-left: -250px;
 }
 
 .p-3 {
   z-index: 90;
   width: 200px;
-  /* margin: 170px 10px; */
+  margin: 170px 10px;
 }
 
 .p-4 {
