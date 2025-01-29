@@ -6,8 +6,8 @@ const ParallaxImages = () => {
       <ParallaxImage
         src="https://images.unsplash.com/photo-1484600899469-230e8d1d59c0?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         alt="And example of a space launch"
-        start={-100}
-        end={200}
+        start={-50}
+        end={0}
         className="p-1"
       />{" "}
       <ParallaxImage

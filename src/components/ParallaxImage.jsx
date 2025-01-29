@@ -12,14 +12,14 @@ const ParallaxImage = ({ className, alt, src, start, end }) => {
 
   const { scrollYProgress } = useScroll({
     target: ref,
-    offset: [`${start}px ${end}px`, `${end}px ${end * -1}px`],
+    offset: [`${start}px ${end}px`, `${end}px ${start * -1}px`],
   });
 
   // useMotionValueEvent(scrollYProgress, "change", (latest) =>
   //   console.log(latest)
   // );
 
-  const y = useTransform(scrollYProgress, [0, 0.6], [start, end]);
+  const y = useTransform(scrollYProgress, [0, 0.75], [start, end]);
 
   const transform = useMotionTemplate`translateY(${y}px)`;
 
